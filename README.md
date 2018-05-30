@@ -8,7 +8,7 @@ Demo Backend: Comming Soon
 
 ![Registration Page](screenshots/cdos-reg.png)
 
-![Dashboard](cdos-dashboard.png)
+![Dashboard](screenshots/cdos-dashboard.png)
 
 ![Preview All Post](screenshots/cdos-all-post.png)
 
