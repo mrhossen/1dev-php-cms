@@ -6,6 +6,12 @@ Demo Frontend: Comming Soon
 
 Demo Backend: Comming Soon
 
+![Registration Page](screenshots/cdos-reg.png)
+
+![Dashboard](cdos-dashboard.png)
+
+![Preview All Post](screenshots/cdos-all-post.png)
+
 The CMS contains all of the major features need for a content management system. Some of the highlight features are:
 
 ## Highlight Features
