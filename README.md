@@ -20,3 +20,5 @@ V 0.1
 * Dynamic Comment system
 * Dynamic User system
 * Bulk option
+
+Check this [Change Log](change-log.txt) file for full details.

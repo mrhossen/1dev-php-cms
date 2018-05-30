@@ -1,0 +1,49 @@
+# Change log
+All notable changes to this project will be documented in this file.
+
+## First Version - May 2018
+
+### Dashboard
+- Post count widget
+- Categories count widget
+- Comment count widget
+- User count widget
+
+### Posts
+- All Post preview panel
+- Edit post
+- Update post
+- Delete post
+- Bulk "Draft" & "Publish" dtatus option
+- Bulk delete option
+- Post category
+- Post tag
+- Post Author
+- Post Comment count
+- Post date
+- Post featured image
+- Tinymce text editor
+
+### Comment
+- Comment on specific post
+- Comment Approve, Unapproved system
+- Comment delete option
+- Commenter name, email, date
+- Bulk Approve, Unapproved system.
+- Bulk Delete system.
+
+# Users
+- User registration system from registration page.
+- User login system form login page
+- User login system form sidebar widget
+- All user preview
+- Add user form backend
+- Edit user form backend
+- User based on role
+- User delete option
+- Bulk user delete option
+- Bulk user role change option
+- User image
+- Encrypt password system for security
+- Login user profile
+- Login user edit profile
