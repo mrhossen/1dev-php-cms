@@ -62,10 +62,10 @@ if (isset($_POST['checkBoxArray'])) {
   </select>
   <div class="input-group-append">
 
-    <input type="submit" name="submit" class="btn btn-outline-secondary" value="Apply">
+    <input type="submit" name="submit" class="btn btn-purple" value="Apply">
   </div>
 </div>
-<a class="btn btn-outline-success" href="posts.php?source=add-post">Add New</a>
+<a class="btn btn-purple" href="posts.php?source=add-post">Add New</a>
 
 </div>
 

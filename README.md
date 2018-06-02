@@ -2,9 +2,9 @@
 
 *_(This is an experimental PHP project)_*
 
-Demo Frontend: Comming Soon
+Demo Frontend: Coming Soon
 
-Demo Backend: Comming Soon
+Demo Backend: Coming Soon
 
 ![Registration Page](screenshots/cdos-reg.png)
 

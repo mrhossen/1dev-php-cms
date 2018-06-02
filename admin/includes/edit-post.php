@@ -97,13 +97,7 @@ if(isset($_POST['update_post'])) {
 ?>
  
  
-  <!-- Breadcrumbs-->
-  <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.php">Dashboard</a>
-        </li>
-        <li class="breadcrumb-item active">Edit Post</li>
-      </ol>
+
 
       <form action="" method="post" enctype="multipart/form-data">
 
@@ -112,7 +106,13 @@ if(isset($_POST['update_post'])) {
 
           <div class="col-8">
 
-   
+     <!-- Breadcrumbs-->
+  <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.php">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Edit Post</li>
+      </ol>
    
 
     
@@ -130,7 +130,7 @@ if(isset($_POST['update_post'])) {
   
   
 <div class="form-group">
-      <input class="btn btn-primary" value="Update Post" type="submit" class="form-control" name="update_post">
+      <input class="btn btn-purple" value="Update Post" type="submit" class="form-control" name="update_post">
   </div>
    
     

@@ -49,7 +49,7 @@ if (isset($_POST['checkBoxArray'])) {
  
           <form action="" method="post">
           
-          <table class="table table-bordered">
+          <table class="table table-bordered table-hover">
 
 
 <div id="bulkoptionsec">
@@ -62,7 +62,7 @@ if (isset($_POST['checkBoxArray'])) {
   </select>
   <div class="input-group-append">
 
-    <input type="submit" name="submit" class="btn btn-outline-secondary" value="Apply">
+    <input type="submit" name="submit" class="btn btn-purple" value="Apply">
   </div>
 </div>
 

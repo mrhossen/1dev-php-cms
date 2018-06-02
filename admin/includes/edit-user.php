@@ -175,7 +175,7 @@ if(isset($_POST['update_user'])) {
 
 
 <div class="form-group">
-   <input class="btn btn-primary" value="Update User" type="submit" class="form-control" name="update_user">
+   <input class="btn btn-purple" value="Update User" type="submit" class="form-control" name="update_user">
 </div>
 
 

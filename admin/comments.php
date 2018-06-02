@@ -7,7 +7,7 @@
   
   
   <div class="content-wrapper">
-    <div class="container-fluid">
+    <div class="container">
 
       
             
@@ -47,7 +47,7 @@
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>CDOS CMS</small>
+          <p>CDOS CMS</p>
         </div>
       </div>
     </footer>

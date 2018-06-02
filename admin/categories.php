@@ -37,7 +37,7 @@ include "includes/admin-nav.php"
 
   
   <div class="content-wrapper">
-    <div class="container-fluid">
+    <div class="container">
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
@@ -62,7 +62,7 @@ include "includes/admin-nav.php"
               </div>
               
               <div class="form-group">
-                  <input class="btn btn-primary" type="submit" name="submit" value="Add Category">
+                  <input class="btn btn-purple" type="submit" name="submit" value="Add Category">
               </div>
               
               
@@ -83,7 +83,7 @@ include "includes/admin-nav.php"
         
     <form action="" method="post"> 
         
-        <table class="table table-bordered">
+        <table class="table table-bordered table-hover">
 
 
 <div id="bulkoptionsec">
@@ -94,7 +94,7 @@ include "includes/admin-nav.php"
   </select>
   <div class="input-group-append">
 
-    <input type="submit" name="deleteBulkCat" class="btn btn-outline-secondary" value="Apply">
+    <input type="submit" name="deleteBulkCat" class="btn btn-purple" value="Apply">
   </div>
 </div>
 
@@ -162,7 +162,7 @@ $query = "SELECT * FROM categories";
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>CDOS CMS</small>
+          <p>CDOS CMS</p>
         </div>
       </div>
     </footer>

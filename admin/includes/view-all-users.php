@@ -85,7 +85,7 @@ if (isset($_POST['checkBoxArray'])) {
     <option value="Delete">Delete</option>
   </select>
   <div class="input-group-append">
-    <input type="submit" name="submit" class="btn btn-outline-secondary" value="Apply">
+    <input type="submit" name="submit" class="btn btn-purple" value="Apply">
   </div>
 </div>
 
@@ -97,14 +97,14 @@ if (isset($_POST['checkBoxArray'])) {
     <option value="Admin">Admin</option>
   </select>
   <div class="input-group-append">
-    <input type="submit" name="submit" class="btn btn-outline-secondary" value="Change">
+    <input type="submit" name="submit" class="btn btn-purple" value="Change">
   </div>
   
 </div>
 
 
 
-<a class="btn btn-outline-success" href="users.php?source=add-user">Add New</a>
+<a class="btn btn-purple" href="users.php?source=add-user">Add New</a>
 
 </div>
 

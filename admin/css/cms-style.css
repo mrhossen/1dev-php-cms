@@ -1,14 +1,20 @@
+a {
+color: #523F6D;
+}
+a:hover {
+    color: #611ebf;
+}
 .admin-post-thumb {
     width: 100px;
 }
 .post-edit-sidebar {
-    background-color: #E9ECEF;
+    background-color: #F2F4F7;
     height: 100vh;
-    padding: 35px;
+    padding: 0px 35px;
 }
-.post-edit-sidebar .form-group {
-    border: 2px solid #ccc;
+.post-edit-sidebar .form-group  {
     padding: 20px;
+    background-color: #fff;
 }
 .post-edit-sidebar label {
     display: block;
@@ -34,4 +40,72 @@
 }
 .navbar-brand i {
     margin-right: 10px;
+}
+.content-wrapper {
+    background-color: #F2F4F7;
+}
+.cdos-nav {
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+    background-color: #fff !important;
+}
+.navbar-sidenav {
+    box-shadow: 0 1px 20px -15px rgba(0, 0, 0, 0.11);
+}
+.container {
+background-color: #fff;
+margin-bottom: 15px;
+}
+footer.sticky-footer {
+    background-color: #fff;
+}
+.breadcrumb {
+    background-color: unset;
+    padding: 1rem 1rem .75rem 0rem;
+}
+.content-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.table-hover tbody tr:hover {
+    background-color: #F2F4F7;
+}
+.sticky-footer p {
+    padding-top: 15px;
+}
+.bg-purple {
+    background-color: #523F6D !important;
+}
+.color-purple {
+    color:  #523F6D !important;
+}
+.navbar-nav .nav-item i {
+	color: #523F6D !important;
+}
+.btn-purple {
+    color: #fff;
+    background-color: #523F6D;
+    border-color: #523F6D;
+}
+.btn-purple:hover {
+    color: #fff;
+    background-color: #611ebf;
+    border-color: #611ebf;
+}
+.frontend-btn {
+    border: 1px solid #523F6D;
+    padding: 3px 15px;
+    margin: 4px;
+}
+.frontend-btn:hover {
+    background-color: #523F6D;
+    color: #fff !important;
+}
+
+
+
+@media screen and (min-width: 768px) {
+.container {
+    width: 100%;
+    max-width: 1630px;
+}
 }

@@ -79,7 +79,7 @@ if(isset($_POST['create_post'])) {
   
   
 <div class="form-group">
-      <input class="btn btn-primary" value="Publish Post" type="submit" class="form-control" name="create_post">
+      <input class="btn btn-purple" value="Publish Post" type="submit" class="form-control" name="create_post">
   </div>
    
     

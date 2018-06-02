@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark-purple fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.php"><i class="fas fa-bullseye fa-2x"></i> CDOS CMS</a>
+<nav class="navbar navbar-expand-lg navbar-light cdos-nav bg-light fixed-top" id="mainNav">
+    <a class="navbar-brand" href="index.php"><i class="fas fa-bullseye fa-2x color-purple"></i> CDOS CMS</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -85,24 +85,27 @@
 
       <ul class="navbar-nav ml-auto">
 
-        <li class="nav-item"><a href="#" class="nav-link">Welcome <?php echo $_SESSION['username']; ?></a></li>
+        
+
+        
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-fw fa-envelope"></i>
-            <span class="d-lg-none">Messages
-              <span class="badge badge-pill badge-primary">12 New</span>
+          <i class="fas fa-plus fa-lg"></i>
+            <span class="d-lg-none">Add New
             </span>
-            <span class="indicator text-primary d-none d-lg-block">
-              <i class="fa fa-fw fa-circle"></i>
-            </span>
+            
           </a>
           <div class="dropdown-menu" aria-labelledby="messagesDropdown">
-            <h6 class="dropdown-header">New Messages:</h6>
+          <a class="dropdown-item large" href="posts.php?source=add-post">Add New Post</a>
             <div class="dropdown-divider"></div>
 
-            <a class="dropdown-item small" href="#">View all messages</a>
+            <a class="dropdown-item large" href="users.php?source=add-user">Add New User</a>
           </div>
         </li>
+
+<li class="nav-item"><a href="/" target="_blank" class="nav-link frontend-btn">Frontend</a></li>
+
+        <li class="nav-item"><a href="user-profile.php" class="nav-link">Welcome <?php echo $_SESSION['username']; ?></a></li>
 
 
 

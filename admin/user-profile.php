@@ -95,7 +95,7 @@ if (isset($_SESSION['username'])) {
 
 
   <div class="content-wrapper">
-    <div class="container-fluid">
+    <div class="container">
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
@@ -178,7 +178,7 @@ if (isset($_SESSION['username'])) {
 
 
 <div class="form-group">
-   <input class="btn btn-primary" value="Update Profile" type="submit" class="form-control" name="update_profile">
+   <input class="btn btn-purple" value="Update Profile" type="submit" class="form-control" name="update_profile">
 </div>
 
 
@@ -197,7 +197,7 @@ if (isset($_SESSION['username'])) {
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>CDOS CMS</small>
+          <p>CDOS CMS</p>
         </div>
       </div>
     </footer>

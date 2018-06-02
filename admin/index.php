@@ -9,7 +9,7 @@ include "includes/admin-nav.php"
 ?>
   
   <div class="content-wrapper">
-    <div class="container-fluid">
+    <div class="container">
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
@@ -22,7 +22,7 @@ include "includes/admin-nav.php"
       <!-- Icon Cards-->
       <div class="row">
         <div class="col-xl-3 col-sm-6 mb-3">
-          <div class="card text-white bg-primary o-hidden h-100">
+          <div class="card text-white bg-purple o-hidden h-100">
             <div class="card-body">
               <div class="card-body-icon">
                 <i class="fa fa-fw fa-file-alt"></i>
@@ -49,7 +49,7 @@ include "includes/admin-nav.php"
           </div>
         </div>
         <div class="col-xl-3 col-sm-6 mb-3">
-          <div class="card text-white bg-warning o-hidden h-100">
+          <div class="card text-white bg-purple o-hidden h-100">
             <div class="card-body">
               <div class="card-body-icon">
                 <i class="fa fa-fw fa-list"></i>
@@ -75,7 +75,7 @@ include "includes/admin-nav.php"
           </div>
         </div>
         <div class="col-xl-3 col-sm-6 mb-3">
-          <div class="card text-white bg-success o-hidden h-100">
+          <div class="card text-white bg-purple o-hidden h-100">
             <div class="card-body">
               <div class="card-body-icon">
                 <i class="fa fa-fw fa-comments"></i>
@@ -101,7 +101,7 @@ include "includes/admin-nav.php"
           </div>
         </div>
         <div class="col-xl-3 col-sm-6 mb-3">
-          <div class="card text-white bg-danger o-hidden h-100">
+          <div class="card text-white bg-purple o-hidden h-100">
             <div class="card-body">
               <div class="card-body-icon">
                 <i class="fa fa-fw fa-users"></i>
@@ -135,7 +135,7 @@ include "includes/admin-nav.php"
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>CDOS CMS</small>
+          <p>CDOS CMS</p>
         </div>
       </div>
     </footer>

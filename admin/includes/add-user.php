@@ -110,7 +110,7 @@ if(isset($_POST['add_user'])) {
 
 
 <div class="form-group">
-   <input class="btn btn-primary" value="Add User" type="submit" class="form-control" name="add_user">
+   <input class="btn btn-purple" value="Add User" type="submit" class="form-control" name="add_user">
 </div>
 
 
