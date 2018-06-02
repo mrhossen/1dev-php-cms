@@ -112,7 +112,7 @@
 
         <li class="nav-item">
           <a class="nav-link" href="../includes/logout.php">
-            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+          <i class="fas fa-sign-in-alt"></i>Logout</a>
         </li>
       </ul>
     </div>
