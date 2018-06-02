@@ -50,19 +50,22 @@ if(isset($_POST['create_post'])) {
 ?>
 
 
- <!-- Breadcrumbs-->
+
+
+   <form action="" method="post" enctype="multipart/form-data">
+
+      <div class="row">
+
+          <div class="col-8"> 
+              
+              
+               <!-- Breadcrumbs-->
  <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.php">Dashboard</a>
         </li>
         <li class="breadcrumb-item active">Add New Post</li>
       </ol>
-
-   <form action="" method="post" enctype="multipart/form-data">
-
-      <div class="row">
-
-          <div class="col-8">  
 
     
   <div class="form-group">
