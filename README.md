@@ -1,4 +1,4 @@
-# CDOS PHP CMS
+# 1DEV PHP CMS
 
 *_(This is an experimental PHP project)_*
 
