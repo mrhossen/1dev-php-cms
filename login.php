@@ -22,7 +22,8 @@
 
   <body>
  
-    <!-- Page Content -->
+
+    <!-- Login Page Content -->
 
     <section class="entrypage">
 
