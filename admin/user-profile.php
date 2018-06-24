@@ -40,7 +40,7 @@ if (isset($_SESSION['username'])) {
       $user_bio = $_POST['user_bio'];
     
     
-        move_uploaded_file($user_image_loc, "../images/$user_image");
+        move_uploaded_file($user_image_loc, "..//asset/images/$user_image");
     
     
          if(empty($user_image)) {
@@ -197,7 +197,7 @@ if (isset($_SESSION['username'])) {
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <p>CDOS CMS</p>
+          <p>1DEV CMS</p>
         </div>
       </div>
     </footer>

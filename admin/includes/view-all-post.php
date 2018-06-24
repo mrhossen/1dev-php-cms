@@ -112,7 +112,7 @@ if (isset($_POST['checkBoxArray'])) {
             echo "<td><input class='checkbox' type='checkbox' name='checkBoxArray[]' value='$post_id'></th>";
 
             echo "<td>$post_id</th>";
-            echo "<td><img class='admin-post-thumb' src='../images/$post_image' alt=''></td>";
+            echo "<td><img class='admin-post-thumb' src='..//asset/images/$post_image' alt=''></td>";
             echo "<td><p>$post_title</p>
             <small class='post-action'><a href='posts.php?source=edit-post&post-id={$post_id}'>Edit</a></small> |
             <small class='post-action'><a href='posts.php?delete={$post_id}'>Delete</a></small>

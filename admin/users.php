@@ -46,7 +46,7 @@
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <p>CDOS CMS</p>
+          <p>1DEV CMS</p>
         </div>
       </div>
     </footer>

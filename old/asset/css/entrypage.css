@@ -1,0 +1,41 @@
+.entrypage {
+    background-color: #523F6D;
+    height: 100vh;
+}
+.entrysec {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+}
+.entrysec .form-wrap {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #0000006b;
+}
+.entrysec h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-purple {
+    background-color: #523F6D;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-purple:hover {
+    background-color: #413256;
+}
+.entryfoolink {
+    color: #8c8c8c;
+    font-weight: 500;
+}
+.entryfoolink:hover {
+    text-decoration: none;
+    color: #413256;
+}
+.entrypage form {
+    margin-bottom: 15px;
+}

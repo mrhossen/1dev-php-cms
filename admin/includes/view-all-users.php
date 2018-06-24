@@ -144,7 +144,7 @@ if (isset($_POST['checkBoxArray'])) {
           echo "<tr>";
           echo "<td><input class='checkbox' name='checkBoxArray[]' type='checkbox' value='$user_id'></td>";
           echo "<td>$user_id</td>";
-          echo "<td><img class='admin-post-thumb' src='../images/$user_image' alt=''></td>";
+          echo "<td><img class='admin-post-thumb' src='..//asset/images/$user_image' alt=''></td>";
           echo "<td>$user_username</td>";
           echo "<td>$user_firstname $user_lastname</td>";
           echo "<td>$user_email</td>";

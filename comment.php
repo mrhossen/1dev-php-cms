@@ -62,31 +62,50 @@
         }
 
         ?>
-         
-         
-         <!-- Comments Form -->
-          <div class="card my-4">
-            <h5 class="card-header">Leave a Comment:</h5>
-            <div class="card-body">
-             
-              <form action="" method="post">
-               
-               
-               <div class="form-group">
-                 <input name="comment_author" type="text" class="form-control" placeholder="Name">
-                </div>
-                
-                <div class="form-group">
-                 <input name="comment_email" type="text" class="form-control" placeholder="Email">
-                </div>
-               
-                <div class="form-group">
-                  <textarea name="comment_content" class="form-control" rows="3" placeholder="Write your comment"></textarea>
-                </div>
-                <button name="create_comment" type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
-          </div>
+
+
+
+
+<div class="comment-sec">
+
+<div class="comment-title">
+
+  <h4>Leave a Comment:</h4>
+
+</div>
+
+<div class="comment-form">
+
+  <form action="" method="post">
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+
+        <input name="comment_author" type="text" class="form-control" id="inputName" placeholder="Name">
+      </div>
+      <div class="form-group col-md-6">
+
+        <input name="comment_email" type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+
+
+      <div class="form-group col-md-12">
+
+        <textarea name="comment_content" class="form-control" placeholder="Write your comment"></textarea>
+      </div>
+
+
+    </div>
+
+    <button name="create_comment" type="submit" class="btn btn-gray btn-block">Submit</button>
+
+  </form>
+</div>
+
+
+</div>
+
+
           
           
         <?php
@@ -122,3 +141,4 @@
           <?php } ?>
           
     
+

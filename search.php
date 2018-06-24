@@ -61,7 +61,7 @@
 
           <!-- Blog Post -->
           <div class="card mb-4">
-            <img class="card-img-top" src="images/<?php echo $post_image; ?>" alt="Card image cap">
+            <img class="card-img-top" src="/asset/images/<?php echo $post_image; ?>" alt="Card image cap">
             <div class="card-body">
               <h2 class="card-title"><?php echo $post_title; ?></h2>
               <p class="card-text"><?php echo $post_content; ?></p>

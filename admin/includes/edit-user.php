@@ -45,7 +45,7 @@ if(isset($_POST['update_user'])) {
   $user_password = crypt($user_password, $randSalt);
 
 
-    move_uploaded_file($user_image_loc, "../images/$user_image");
+    move_uploaded_file($user_image_loc, "..//asset/images/$user_image");
 
 
      if(empty($user_image)) {

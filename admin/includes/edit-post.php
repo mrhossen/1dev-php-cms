@@ -42,7 +42,7 @@ if(isset($_POST['update_post'])) {
     $post_comment_count = 4;
     
     
-    move_uploaded_file($post_image_loc, "../images/$post_image");
+    move_uploaded_file($post_image_loc, "..//asset/images/$post_image");
     
     
      if(empty($post_image)) {
@@ -200,7 +200,7 @@ if(isset($_POST['update_post'])) {
    <div class="form-group">
       <label for="post_image">Post Image</label>
       <input type="file" class="form-control" name="post_image">
-      <img width=200 src="../images/<?php echo "$post_image"; ?>" alt="">
+      <img width=200 src="../asset/images/<?php echo "$post_image"; ?>" alt="">
   </div> 
    
    <div class="form-group">

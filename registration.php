@@ -81,15 +81,15 @@ $errorMessage =  "
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CDOS CMS Registration</title>
+    <title>1DEV CMS Registration</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/entrypage.css" rel="stylesheet">
+    <link href="asset/css/entrypage.css" rel="stylesheet">
 
-    <link href="vendor/font-awesome/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+    <link href="asset/vendor/font-awesome/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 
   </head>
 
@@ -104,7 +104,7 @@ $errorMessage =  "
         
             <div class="col-6 entrysec">
                
-            <h1> <i class="fas fa-bullseye fa-lg"></i> CDOS CMS </h1>
+            <h1> <i class="fas fa-bullseye fa-lg"></i> 1DEV CMS </h1>
                 <div class="form-wrap">
                 <h2>Register</h2>
                 <form action="registration.php" method="post" method="post">
@@ -136,9 +136,9 @@ $errorMessage =  "
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="asset/vendor/jquery/jquery.min.js"></script>
+    <script src="asset/vendor/popper/popper.min.js"></script>
+    <script src="asset/vendor/bootstrap/js/bootstrap.min.js"></script>
 
   </body>
 

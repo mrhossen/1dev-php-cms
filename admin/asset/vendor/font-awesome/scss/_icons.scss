@@ -471,7 +471,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-id-card:before { content: fa-content($fa-var-id-card); }
 .#{$fa-css-prefix}-id-card-alt:before { content: fa-content($fa-var-id-card-alt); }
 .#{$fa-css-prefix}-image:before { content: fa-content($fa-var-image); }
-.#{$fa-css-prefix}-images:before { content: fa-content($fa-var-images); }
+.#{$fa-css-prefix}-/asset/images:before { content: fa-content($fa-var-/asset/images); }
 .#{$fa-css-prefix}-imdb:before { content: fa-content($fa-var-imdb); }
 .#{$fa-css-prefix}-inbox:before { content: fa-content($fa-var-inbox); }
 .#{$fa-css-prefix}-indent:before { content: fa-content($fa-var-indent); }

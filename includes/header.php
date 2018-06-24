@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-  <head>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>1DEV Blog Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>CDOS PHP CMS Frontend</title>
-
-    <!-- Bootstrap core CSS -->
     <link href="asset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="asset/css/blog-home.css" rel="stylesheet">
-
     <link href="asset/vendor/font-awesome/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 
-  </head>
+    <link rel="stylesheet" type="text/css" media="screen" href="asset/css/styles.css" />
 
-  <body>
+
+
+</head>
+
+<body>

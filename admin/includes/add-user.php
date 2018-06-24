@@ -15,7 +15,7 @@ if(isset($_POST['add_user'])) {
   $user_bio = $_POST['user_bio'];
 
 
-    move_uploaded_file($user_image_loc, "../images/$user_image");
+    move_uploaded_file($user_image_loc, "..//asset/images/$user_image");
 
 
     $query = "INSERT INTO users(user_username, user_firstname, user_lastname, user_email, user_password, user_image, user_role, user_bio)";
