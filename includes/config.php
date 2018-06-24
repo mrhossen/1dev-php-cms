@@ -3,7 +3,7 @@
 $db['db_host'] = "localhost";
 $db['db_user'] = "root";
 $db['db_pass'] = "root";
-$db['db_name'] = "rhcms";
+$db['db_name'] = "riocms";
 
 foreach($db as $key => $value) {
     define (strtoupper ($key), $value);
